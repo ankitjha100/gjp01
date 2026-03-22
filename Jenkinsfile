@@ -7,7 +7,7 @@ pipeline {
  stages {
  stage('Checkout') {
  steps {
- git branch: 'master', url: 'https://github.com/ankitjha100/gjp01'
+ git branch: 'master', url: 'https://github.com/ankitjha100/gjp01.git'
  }
  }
  stage('Build') {
